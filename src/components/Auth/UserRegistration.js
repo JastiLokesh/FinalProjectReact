@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import authService from '../services/authService';
 import '../../styles/UserRegistration.css';
 
+
 const UserRegistration = () => { 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
